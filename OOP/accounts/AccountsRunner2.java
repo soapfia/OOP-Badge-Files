@@ -15,10 +15,13 @@ public class AccountsRunner2 {
 
         if (/*Username & password matches user1 */) {
             // print `Welcome user1!`
+            System.out.println("Welcome user1");
         } else if (/*Username & password matches user2 */) {
             // print `Welcome user2!`
+            System.out.println("Welcome user2!");
         } else {
             // print invalid username/password
+            System.out.println("Invalid username or password. Please try again.");
         }
 
         input.close(); 
