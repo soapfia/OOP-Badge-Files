@@ -2,7 +2,7 @@ package OOP.oop;
 
 import OOP.oop.Animal;
 
-public class Cat {
+public class Cat extends Animal {
     String name;
     int age;
 
@@ -12,9 +12,9 @@ public class Cat {
     //    - Add a makeSound() method that prints "meow"
 
     public Cat(String name, int age) {
-        this.name = name;
-        this.age = age;
+        super(name, age);
     }
+        @Override
         public void makeSound() {
             System.out.println("meow");
     }

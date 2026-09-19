@@ -25,5 +25,18 @@ public class UserAccount {
         System.out.println("Password: " + password);
     }
 
+    public void resetUsername(String newUsername) {
+        this.username = newUsername;
+    }
+
+    public void resetPassword(String newPassword) {
+        this.password = newPassword;
+    }
+
+    public String getUsername(){return username;}
+    public String getPassword(){return password;}
+    public String getName(){return name;}
+    public String getEmail(){return email;}
+
     
 }
